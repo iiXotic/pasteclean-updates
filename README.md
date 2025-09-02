@@ -1,4 +1,4 @@
-PasteClean â€” Paste clean links. One hotkey.
+PasteClean. Paste clean links. One hotkey.
 
 What it does
 - Removes tracking junk from URLs automatically when you copy or paste.
