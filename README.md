@@ -2,8 +2,8 @@ PasteClean â€” Paste clean links. One hotkey.
 
 What it does
 - Removes tracking junk from URLs automatically when you copy or paste.
-- Works systemâ€‘wide from the tray. Fast, lightweight, and localâ€‘only.
-- WPF on .NET 8. Portable singleâ€‘file build supported.
+- Works system wide from the tray. Fast, lightweight, and local only.
+- WPF on .NET 8. Portable single file build supported.
 
 Hotkeys (defaults)
 - Clean & Paste: Ctrl+Shift+V
@@ -13,7 +13,7 @@ Hotkeys (defaults)
 
 Lite vs Pro
 - Lite (free):
-  - Autoâ€‘clean on copy/paste (Conservative/Balanced/Aggressive)
+  - Autoclean on copy/paste (Conservative/Balanced/Aggressive)
   - Clean & Paste hotkey; Shift to bypass; Undo; Pause
   - History (keeps last 100 items)
 - Pro (license):
@@ -34,7 +34,7 @@ Updates
 
 Licensing
 - One EXE. Lite by default; unlock Pro with a Gumroad license key.
-- Settings â†’ License: paste product_id and key â†’ Activate.
+- Settings at’ License: paste product_id and key at Activate.
 - Verification occurs once (counts device uses if you set a limit). Pro is perpetual on this device. Keys are never logged.
 - Optional 3â€‘day trial (optâ€‘in).
 
@@ -44,7 +44,7 @@ Privacy
 Build (developer)
 - Requires .NET 8 SDK.
 - Publish selfâ€‘contained single file:
-  dotnet publish .\App\App.csproj -c Release -r win-x64 -p:SelfContained=true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:PublishTrimmed=false
+  dotnet publish .\ App \ App.csproj -c Release -r win-x64 -p:SelfContained=true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:PublishTrimmed=false
 
 Diagnostics
 - Logs are stored under %AppData%\PasteClean\Logs.
