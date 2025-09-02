@@ -1,0 +1,13 @@
+PasteClean 1.0.1
+- New: Built-in default update feed (no manual URL needed)
+- Change: Removed Update Feed URL field from Settings (uses default)
+- Fix: Clearer config path and migration to %AppData%\PasteClean
+- Change: Updates install only when you click Check for updates (no auto-install on next launch)
+
+PasteClean 1.0.0
+- Initial release
+- Lite vs Pro licensing (Gumroad key), optional 3-day trial
+- Auto-clean on copy/paste; Clean & Paste hotkey; Undo; Pause
+- History (Lite: 100 items; Pro: unlimited + export)
+- Pro: Filter list import ($removeparam/$queryprune), Batch Cleaner, External Link Clean, Smart Packs
+- Updater: appcast + SHA256 verification and staged swap
