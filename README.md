@@ -1,55 +1,65 @@
-PasteClean. Paste clean links. One hotkey.
+PasteClean
+One hotkey. Clean links.
 
-What it does
-- Removes tracking junk from URLs automatically when you copy or paste.
-- Works system wide from the tray. Fast, lightweight, and local only.
-- WPF on .NET 8. Portable single file build supported.
+Purpose: Strip tracking junk from URLs system-wide before they clutter your clipboard or browser.
 
-Hotkeys (defaults)
-- Clean & Paste: Ctrl+Shift+V
-- Undo last paste: Ctrl+Alt+V
-- Open Settings: Ctrl+Shift+,
-- Hold Shift while pressing Clean & Paste to bypass cleaning
+Runs: Local-only, lightweight tray app (WPF on .NET 8). Portable single-file EXE.
 
-Lite vs Pro
-- Lite (free):
-  - Autoclean on copy/paste (Conservative/Balanced/Aggressive)
-  - Clean & Paste hotkey; Shift to bypass; Undo; Pause
-  - History (keeps last 100 items)
-- Pro (license):
-  - External Link Clean (open cleaned URLs from apps like Slack)
-  - Batch Cleaner (extract + clean URLs from text; copy/export TXT/CSV)
-  - Filter lists import (AdGuard/uBO $removeparam/$queryprune, wildcards, regex)
-  - Smart Packs (curated lists), unlimited history + export
-  - More tools coming: perâ€‘app profiles, HTML copy, diff, local stats
+Hotkeys (defaults):
 
-Install
-- Download the latest EXE from Releases and run it.
-- First run opens Settings; Save/Close to hide to the tray.
-- Next runs start in the tray (toggle in Settings).
+Ctrl+Shift+V → Clean & Paste
 
-Updates
-- Builtâ€‘in update feed is preconfigured; use About â†’ Check for updates.
-- Updates are downloaded and staged only when you choose; no autoâ€‘install on launch.
+Ctrl+Alt+V → Undo last paste
 
-Licensing
-- One EXE. Lite by default; unlock Pro with a Gumroad license key.
-- Settings at’ License: paste product_id and key at Activate.
-- Verification occurs once (counts device uses if you set a limit). Pro is perpetual on this device. Keys are never logged.
-- Optional 3â€‘day trial (optâ€‘in).
+Ctrl+Shift+, → Open Settings
+
+Hold Shift while pasting → Bypass cleaning
+
+Lite (Free)
+
+Auto-clean on copy/paste (Conservative/Balanced/Aggressive modes)
+
+Hotkey paste + bypass + undo + pause
+
+History (last 100 items)
+
+Pro (Paid)
+
+External link cleaning (apps like Slack)
+
+Batch cleaner (extract + clean URLs, export TXT/CSV)
+
+Import filter lists (AdGuard/uBO rules, regex, wildcards)
+
+Smart Packs (curated lists), unlimited history & export
+
+Upcoming: per-app profiles, HTML copy, diff, stats
+
+Install & Updates
+
+Download EXE from Releases, first run opens Settings.
+
+Built-in update checker, no forced auto-installs.
+
+License
+
+One binary, Lite by default. Unlock Pro with Gumroad key.
+
+Activation is one-time, device-bound. 3-day trial optional.
 
 Privacy
-- 100% local. No telemetry. Logs never include clipboard contents or license keys.
 
-Build (developer)
-- Requires .NET 8 SDK.
-- Publish selfâ€‘contained single file:
-  dotnet publish .\ App \ App.csproj -c Release -r win-x64 -p:SelfContained=true -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:PublishTrimmed=false
+Fully local. No telemetry. Logs exclude clipboard contents & keys.
 
-Diagnostics
-- Logs are stored under %AppData%\PasteClean\Logs.
+Build (Dev)
 
-Changelog
-- See docs/patch-notes.txt
+Requires .NET 8 SDK.
 
-Support`n- Open an issue or email (see your store receipt) if you hit problems.`  Buy Pro on Gumroad: https://iamxotic.gumroad.com/l/pasteclean
+Publish single-file with dotnet publish … (options set for self-contained).
+
+Support
+
+Logs: %AppData%\PasteClean\Logs.
+
+Issues via repo or email (in receipt). Pro on Gumroad: https://iamxotic.gumroad.com/l/pasteclean
+.
