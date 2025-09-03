@@ -1,3 +1,11 @@
+PasteClean 1.0.2
+Fix: Remove extra HubSpot/CRM trackers (_hsmi, _hsenc) and li_fat_id
+Fix: Preserve non-default ports and IPv6 host formatting; skip IDN for IPs
+Fix: Expanded redirect unwrapping (Google url=, Google imgres, LinkedIn checkpoint, Proofpoint URLDefense v3)
+Fix: Deterministic query parameter ordering (except YouTube where order matters)
+Fix: Safer startup if clipboard init fails; clipboard handler synchronous
+Change: Cleaned UrlCleaner root-path handling (removed mistaken empty statement)
+
 PasteClean 1.0.1
 - New: Built-in default update feed (no manual URL needed)
 - Change: Removed Update Feed URL field from Settings (uses default)
