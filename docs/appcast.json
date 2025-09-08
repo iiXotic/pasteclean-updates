@@ -1,1 +1,5 @@
-{"Version":"1.5.0","File":"https://github.com/iiXotic/pasteclean-updates/releases/download/v1.5.0/PasteClean_1.5.0.exe","Sha256":"1A63D94691FEC2E6E8BC5C67C8E2072E274E02786935050711F29196A05E8BC1","Notes":"https://github.com/iiXotic/pasteclean-updates/releases/tag/v1.5.0"}
+{
+"latest": "0.1.0",
+"url": "https://github.com/iiXotic/pasteclean-updates/releases/latest",
+"notes": "Initial release"
+}
